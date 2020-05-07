@@ -1,5 +1,8 @@
-
-
+@media(min-width:377px){
+    *{
+        display: none;
+    }
+}
 @media(max-width: 376px){
     .header{
         background-color: #065D6C;
@@ -55,4 +58,5 @@
     .doctor .col-8{
         padding: 0;
     }
+    
 }
