@@ -4,19 +4,19 @@
     }
 }
 @media(max-width: 376px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
     .header{
         background-color: #065D6C;
         min-width: 200px;
         width: 100%;
-        height: 50px;
-        line-height: 50px;
+        height: 45px;
+        line-height: 45px;
         margin: 0 auto;
     }
-    .header h4{
-        line-height: 50px;
-        text-align: left;
-        padding-left: 20px;
-        /* display: inline; */
+    .header span{
+        font-family: initial;
     }
     .header img{
         height: 35px;
@@ -48,7 +48,8 @@
         margin: 0;
     }
     .doctor h5{
-        font-size: 18px;
+        font-size: 20px;
+        margin: .3rem 0 !important;
     }
     .doctor p{
         /* padding: 0px; */
